@@ -18,8 +18,8 @@
     "redux-thunk": "^2.4.2"
   },
   "scripts": {
-    "start": "react-app-rewired start",
     "deploy": "npm run build && npm run build-storybook && npm run build-gh-pages",
+    "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
